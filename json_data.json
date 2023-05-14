@@ -4,199 +4,43 @@
     {
       "key": 0,
       "url": "//fahrplan.search.ch/Z%C3%BCrich,Winzerstrasse-S%C3%BCd..Z%C3%BCrich-HB",
-      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich HB am Dienstag 14.03.2023",
+      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich HB am Sonntag 14.05.2023",
       "count": 4,
-      "min_duration": 720,
-      "rawtime": 720,
-      "max_duration": 1080,
-      "maxtime": 1080,
+      "min_duration": 900,
+      "rawtime": 900,
+      "max_duration": 1560,
+      "maxtime": 1560,
       "connections": [
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:03:00",
+          "departure": "2023-05-14 09:55:00",
           "to": "Z\u00fcrich HB",
-          "arrival": "2023-03-14 16:15:00",
-          "duration": 720,
+          "arrival": "2023-05-14 10:10:00",
+          "duration": 900,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 16:03:00",
-              "tripid": "T2023_013592_000849_001_32bafe7_0",
+              "departure": "2023-05-14 09:55:00",
+              "tripid": "T2023_005816_000849_001_11a1033_0",
               "stopid": "8591436",
               "x": 679068,
               "y": 250811,
               "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
               "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
               "type": "bus",
-              "line": "304",
-              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "fgcolor": "fff",
-              "bgcolor": "e20a16",
-              "*G": "B",
-              "*L": "304",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:04:00",
-                  "departure": "2023-03-14 16:04:00",
-                  "name": "Z\u00fcrich, Hohenklingensteig",
-                  "stopid": "8591197",
-                  "x": 679379,
-                  "y": 250590,
-                  "lon": 8.490207,
-                  "lat": 47.401343
-                },
-                {
-                  "arrival": "2023-03-14 16:05:00",
-                  "departure": "2023-03-14 16:05:00",
-                  "name": "Z\u00fcrich, Winzerhalde",
-                  "stopid": "8591434",
-                  "x": 679710,
-                  "y": 250451,
-                  "lon": 8.494566,
-                  "lat": 47.400053
-                },
-                {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:06:00",
-                  "name": "Z\u00fcrich, T\u00fcffenwies",
-                  "stopid": "8591402",
-                  "x": 679717,
-                  "y": 250184,
-                  "lon": 8.494611,
-                  "lat": 47.397651
-                }
-              ],
-              "runningtime": 240,
-              "exit": {
-                "arrival": "2023-03-14 16:07:00",
-                "stopid": "8591057",
-                "x": 679370,
-                "y": 249558,
-                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-                "waittime": 0,
-                "lon": 8.489904,
-                "lat": 47.392063
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:07:00",
-              "departure": "2023-03-14 16:07:00",
-              "stopid": "8591057",
-              "x": 679370,
-              "y": 249558,
-              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-              "waittime": 0,
-              "normal_time": 180,
-              "stops": null,
-              "runningtime": 180,
-              "exit": {
-                "arrival": "2023-03-14 16:10:00",
-                "stopid": "8503001",
-                "x": 679300,
-                "y": 249492,
-                "name": "Z\u00fcrich Altstetten",
-                "sbb_name": "Z\u00fcrich Altstetten",
-                "waittime": 0,
-                "lon": 8.488966,
-                "lat": 47.391478
-              },
-              "type": "walk",
-              "type_name": "Fussweg",
-              "lon": 8.489904,
-              "lat": 47.392063
-            },
-            {
-              "arrival": "2023-03-14 16:10:00",
-              "departure": "2023-03-14 16:10:00",
-              "tripid": "T2023_019961_000011_101_3e75144_0",
-              "stopid": "8503001",
-              "x": 679300,
-              "y": 249492,
-              "name": "Z\u00fcrich Altstetten",
-              "sbb_name": "Z\u00fcrich Altstetten",
-              "type": "strain",
-              "line": "S19",
-              "terminal": "Pf\u00e4ffikon ZH",
-              "waittime": 0,
-              "fgcolor": "fff",
-              "bgcolor": "039",
-              "*G": "S",
-              "*L": "19",
-              "operator": "SBB",
-              "stops": [],
-              "runningtime": 300,
-              "exit": {
-                "arrival": "2023-03-14 16:15:00",
-                "stopid": "8503000",
-                "x": 683212,
-                "y": 248030,
-                "name": "Z\u00fcrich HB",
-                "sbb_name": "Z\u00fcrich HB",
-                "track": "33",
-                "lon": 8.540502,
-                "lat": 47.377847
-              },
-              "track": "6",
-              "attributes": {
-                "0_6.5_VN": "VELOS: Keine Bef\u00f6rderung m\u00f6glich"
-              },
-              "disruptions": [],
-              "type_name": "S-Bahn",
-              "lon": 8.488966,
-              "lat": 47.391478
-            },
-            {
-              "arrival": "2023-03-14 16:15:00",
-              "stopid": "8503000",
-              "x": 683212,
-              "y": 248030,
-              "name": "Z\u00fcrich HB",
-              "sbb_name": "Z\u00fcrich HB",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.540502,
-              "lat": 47.377847
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:05:00",
-          "to": "Z\u00fcrich HB",
-          "arrival": "2023-03-14 16:21:00",
-          "duration": 960,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:05:00",
-              "tripid": "T2023_013417_000849_001_d336472_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "80",
-              "terminal": "Z\u00fcrich, Triemlispital",
+              "line": "89",
+              "terminal": "Z\u00fcrich, Sihlcity",
+              "style": "1",
               "fgcolor": "000",
-              "bgcolor": "cbcfb3",
+              "bgcolor": "ffffff",
               "*G": "B",
-              "*L": "80",
+              "*L": "89",
+              "*Z": "005816",
               "operator": "VBZ",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:06:00",
+                  "arrival": "2023-05-14 09:56:00",
+                  "departure": "2023-05-14 09:56:00",
                   "name": "Z\u00fcrich, Hohenklingensteig",
                   "stopid": "8591197",
                   "x": 679379,
@@ -205,8 +49,8 @@
                   "lat": 47.401343
                 },
                 {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:07:00",
+                  "arrival": "2023-05-14 09:57:00",
+                  "departure": "2023-05-14 09:57:00",
                   "name": "Z\u00fcrich, Winzerhalde",
                   "stopid": "8591434",
                   "x": 679710,
@@ -215,8 +59,8 @@
                   "lat": 47.400053
                 },
                 {
-                  "arrival": "2023-03-14 16:07:00",
-                  "departure": "2023-03-14 16:07:00",
+                  "arrival": "2023-05-14 09:57:00",
+                  "departure": "2023-05-14 09:58:00",
                   "name": "Z\u00fcrich, T\u00fcffenwies",
                   "stopid": "8591402",
                   "x": 679717,
@@ -227,7 +71,7 @@
               ],
               "runningtime": 300,
               "exit": {
-                "arrival": "2023-03-14 16:10:00",
+                "arrival": "2023-05-14 10:00:00",
                 "stopid": "8591056",
                 "x": 679256,
                 "y": 249450,
@@ -246,8 +90,8 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:10:00",
-              "departure": "2023-03-14 16:10:00",
+              "arrival": "2023-05-14 10:00:00",
+              "departure": "2023-05-14 10:00:00",
               "stopid": "8591056",
               "x": 679256,
               "y": 249450,
@@ -258,7 +102,582 @@
               "stops": null,
               "runningtime": 240,
               "exit": {
-                "arrival": "2023-03-14 16:14:00",
+                "arrival": "2023-05-14 10:04:00",
+                "stopid": "8503001",
+                "x": 679300,
+                "y": 249492,
+                "name": "Z\u00fcrich Altstetten",
+                "sbb_name": "Z\u00fcrich Altstetten",
+                "waittime": 60,
+                "lon": 8.488966,
+                "lat": 47.391478
+              },
+              "type": "walk",
+              "type_name": "Fussweg",
+              "lon": 8.488376,
+              "lat": 47.391105
+            },
+            {
+              "arrival": "2023-05-14 10:04:00",
+              "departure": "2023-05-14 10:05:00",
+              "tripid": "T2023_019437_000011_101_3c722f1_0",
+              "stopid": "8503001",
+              "x": 679300,
+              "y": 249492,
+              "name": "Z\u00fcrich Altstetten",
+              "sbb_name": "Z\u00fcrich Altstetten",
+              "type": "strain",
+              "line": "S14",
+              "terminal": "Hinwil",
+              "waittime": 60,
+              "fgcolor": "fff",
+              "bgcolor": "039",
+              "*G": "S",
+              "*L": "14",
+              "*Z": "019437",
+              "operator": "SBB",
+              "stops": [],
+              "runningtime": 300,
+              "exit": {
+                "arrival": "2023-05-14 10:10:00",
+                "stopid": "8503000",
+                "x": 683212,
+                "y": 248030,
+                "name": "Z\u00fcrich HB",
+                "sbb_name": "Z\u00fcrich HB",
+                "track": "33",
+                "lon": 8.540502,
+                "lat": 47.377847
+              },
+              "track": "4",
+              "disruptions": [],
+              "type_name": "S-Bahn",
+              "lon": 8.488966,
+              "lat": 47.391478
+            },
+            {
+              "arrival": "2023-05-14 10:10:00",
+              "stopid": "8503000",
+              "x": 683212,
+              "y": 248030,
+              "name": "Z\u00fcrich HB",
+              "sbb_name": "Z\u00fcrich HB",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.540502,
+              "lat": 47.377847
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:00:00",
+          "to": "Z\u00fcrich HB",
+          "arrival": "2023-05-14 10:15:00",
+          "duration": 900,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:00:00",
+              "tripid": "T2023_005865_000849_001_c94a9e2_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "304",
+              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
+              "fgcolor": "fff",
+              "bgcolor": "e20a16",
+              "*G": "B",
+              "*L": "304",
+              "*Z": "005865",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:00:00",
+                  "departure": "2023-05-14 10:00:00",
+                  "name": "Z\u00fcrich, Hohenklingensteig",
+                  "stopid": "8591197",
+                  "x": 679379,
+                  "y": 250590,
+                  "lon": 8.490207,
+                  "lat": 47.401343
+                },
+                {
+                  "arrival": "2023-05-14 10:01:00",
+                  "departure": "2023-05-14 10:01:00",
+                  "name": "Z\u00fcrich, Winzerhalde",
+                  "stopid": "8591434",
+                  "x": 679710,
+                  "y": 250451,
+                  "lon": 8.494566,
+                  "lat": 47.400053
+                },
+                {
+                  "arrival": "2023-05-14 10:02:00",
+                  "departure": "2023-05-14 10:02:00",
+                  "name": "Z\u00fcrich, T\u00fcffenwies",
+                  "stopid": "8591402",
+                  "x": 679717,
+                  "y": 250184,
+                  "lon": 8.494611,
+                  "lat": 47.397651
+                }
+              ],
+              "runningtime": 180,
+              "exit": {
+                "arrival": "2023-05-14 10:03:00",
+                "stopid": "8591057",
+                "x": 679370,
+                "y": 249558,
+                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
+                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
+                "waittime": 0,
+                "lon": 8.489904,
+                "lat": 47.392063
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:03:00",
+              "departure": "2023-05-14 10:03:00",
+              "stopid": "8591057",
+              "x": 679370,
+              "y": 249558,
+              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
+              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
+              "waittime": 0,
+              "normal_time": 180,
+              "stops": null,
+              "runningtime": 180,
+              "exit": {
+                "arrival": "2023-05-14 10:06:00",
+                "stopid": "8503001",
+                "x": 679300,
+                "y": 249492,
+                "name": "Z\u00fcrich Altstetten",
+                "sbb_name": "Z\u00fcrich Altstetten",
+                "waittime": 180,
+                "lon": 8.488966,
+                "lat": 47.391478
+              },
+              "type": "walk",
+              "type_name": "Fussweg",
+              "lon": 8.489904,
+              "lat": 47.392063
+            },
+            {
+              "arrival": "2023-05-14 10:06:00",
+              "departure": "2023-05-14 10:09:00",
+              "tripid": "T2023_019237_000011_101_bf6ff95_0",
+              "stopid": "8503001",
+              "x": 679300,
+              "y": 249492,
+              "name": "Z\u00fcrich Altstetten",
+              "sbb_name": "Z\u00fcrich Altstetten",
+              "type": "strain",
+              "line": "S12",
+              "terminal": "Schaffhausen",
+              "waittime": 180,
+              "fgcolor": "fff",
+              "bgcolor": "039",
+              "*G": "S",
+              "*L": "12",
+              "*Z": "019237",
+              "operator": "SBB",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:11:00",
+                  "departure": "2023-05-14 10:11:00",
+                  "name": "Z\u00fcrich Hardbr\u00fccke",
+                  "stopid": "8503020",
+                  "x": 681478,
+                  "y": 248811,
+                  "lon": 8.517686,
+                  "lat": 47.385087
+                }
+              ],
+              "runningtime": 360,
+              "exit": {
+                "arrival": "2023-05-14 10:15:00",
+                "stopid": "8503000",
+                "x": 683212,
+                "y": 248030,
+                "name": "Z\u00fcrich HB",
+                "sbb_name": "Z\u00fcrich HB",
+                "track": "43/44",
+                "lon": 8.540502,
+                "lat": 47.377847
+              },
+              "track": "4",
+              "disruptions": [],
+              "type_name": "S-Bahn",
+              "lon": 8.488966,
+              "lat": 47.391478
+            },
+            {
+              "arrival": "2023-05-14 10:15:00",
+              "stopid": "8503000",
+              "x": 683212,
+              "y": 248030,
+              "name": "Z\u00fcrich HB",
+              "sbb_name": "Z\u00fcrich HB",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.540502,
+              "lat": 47.377847
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:09:00",
+          "to": "Z\u00fcrich HB",
+          "arrival": "2023-05-14 10:35:00",
+          "duration": 1560,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:09:00",
+              "tripid": "T2023_006225_000849_001_e94ed0d_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "80",
+              "terminal": "Z\u00fcrich Oerlikon, Bahnhof Nord",
+              "fgcolor": "000",
+              "bgcolor": "cbcfb3",
+              "*G": "B",
+              "*L": "80",
+              "*Z": "006225",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:11:00",
+                  "departure": "2023-05-14 10:11:00",
+                  "name": "Z\u00fcrich, Wartau",
+                  "stopid": "8591423",
+                  "x": 679484,
+                  "y": 250750,
+                  "lon": 8.491626,
+                  "lat": 47.402769
+                },
+                {
+                  "arrival": "2023-05-14 10:11:00",
+                  "departure": "2023-05-14 10:12:00",
+                  "name": "Z\u00fcrich, Zwielplatz",
+                  "stopid": "8591446",
+                  "x": 679876,
+                  "y": 250690,
+                  "lon": 8.496808,
+                  "lat": 47.402182
+                }
+              ],
+              "runningtime": 240,
+              "exit": {
+                "arrival": "2023-05-14 10:13:00",
+                "stopid": "8576240",
+                "x": 680070,
+                "y": 250673,
+                "name": "Z\u00fcrich, Meierhofplatz",
+                "sbb_name": "Z\u00fcrich, Meierhofplatz",
+                "waittime": 60,
+                "lon": 8.499374,
+                "lat": 47.402006
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:13:00",
+              "departure": "2023-05-14 10:14:00",
+              "tripid": "T2023_006253_000849_001_7d0e7b4_0",
+              "stopid": "8576240",
+              "x": 680070,
+              "y": 250673,
+              "name": "Z\u00fcrich, Meierhofplatz",
+              "sbb_name": "Z\u00fcrich, Meierhofplatz",
+              "type": "bus",
+              "line": "46",
+              "terminal": "Z\u00fcrich, Bahnhofquai/HB",
+              "waittime": 60,
+              "normal_time": 60,
+              "fgcolor": "000",
+              "bgcolor": "c1d59f",
+              "*G": "B",
+              "*L": "46",
+              "*Z": "006253",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:15:00",
+                  "departure": "2023-05-14 10:15:00",
+                  "name": "Z\u00fcrich, Schwert",
+                  "stopid": "8591353",
+                  "x": 680469,
+                  "y": 250425,
+                  "lon": 8.504615,
+                  "lat": 47.399727
+                },
+                {
+                  "arrival": "2023-05-14 10:16:00",
+                  "departure": "2023-05-14 10:16:00",
+                  "name": "Z\u00fcrich, Kempfhofsteig",
+                  "stopid": "8591226",
+                  "x": 680881,
+                  "y": 250161,
+                  "lon": 8.510024,
+                  "lat": 47.397302
+                },
+                {
+                  "arrival": "2023-05-14 10:17:00",
+                  "departure": "2023-05-14 10:17:00",
+                  "name": "Z\u00fcrich, Rebbergsteig",
+                  "stopid": "8591312",
+                  "x": 681255,
+                  "y": 250121,
+                  "lon": 8.514971,
+                  "lat": 47.396896
+                },
+                {
+                  "arrival": "2023-05-14 10:18:00",
+                  "departure": "2023-05-14 10:18:00",
+                  "name": "Z\u00fcrich, Lehenstrasse",
+                  "stopid": "8591247",
+                  "x": 681690,
+                  "y": 250043,
+                  "lon": 8.520718,
+                  "lat": 47.396141
+                },
+                {
+                  "arrival": "2023-05-14 10:19:00",
+                  "departure": "2023-05-14 10:20:00",
+                  "name": "Z\u00fcrich, Rosengartenstrasse",
+                  "stopid": "8591323",
+                  "x": 682051,
+                  "y": 249846,
+                  "lon": 8.525463,
+                  "lat": 47.394324
+                },
+                {
+                  "arrival": "2023-05-14 10:21:00",
+                  "departure": "2023-05-14 10:21:00",
+                  "name": "Z\u00fcrich Wipkingen, Bahnhof",
+                  "stopid": "8591066",
+                  "x": 682359,
+                  "y": 249752,
+                  "lon": 8.529525,
+                  "lat": 47.393441
+                },
+                {
+                  "arrival": "2023-05-14 10:22:00",
+                  "departure": "2023-05-14 10:22:00",
+                  "name": "Z\u00fcrich, Lettenstrasse",
+                  "stopid": "8591251",
+                  "x": 682606,
+                  "y": 249502,
+                  "lon": 8.53275,
+                  "lat": 47.391161
+                },
+                {
+                  "arrival": "2023-05-14 10:23:00",
+                  "departure": "2023-05-14 10:23:00",
+                  "name": "Z\u00fcrich, Okenstrasse",
+                  "stopid": "8591296",
+                  "x": 682716,
+                  "y": 249153,
+                  "lon": 8.534142,
+                  "lat": 47.388009
+                },
+                {
+                  "arrival": "2023-05-14 10:25:00",
+                  "departure": "2023-05-14 10:26:00",
+                  "name": "Z\u00fcrich, Stampfenbachplatz",
+                  "stopid": "8591379",
+                  "x": 683380,
+                  "y": 248304,
+                  "lon": 8.542777,
+                  "lat": 47.38029
+                },
+                {
+                  "arrival": "2023-05-14 10:27:00",
+                  "departure": "2023-05-14 10:27:00",
+                  "name": "Z\u00fcrich, Central",
+                  "stopid": "8588078",
+                  "x": 683473,
+                  "y": 247922,
+                  "lon": 8.543937,
+                  "lat": 47.376842
+                }
+              ],
+              "runningtime": 840,
+              "exit": {
+                "arrival": "2023-05-14 10:28:00",
+                "stopid": "8587349",
+                "x": 683306,
+                "y": 247999,
+                "name": "Z\u00fcrich, Bahnhofquai/HB",
+                "sbb_name": "Z\u00fcrich, Bahnhofquai/HB",
+                "waittime": 0,
+                "lon": 8.541741,
+                "lat": 47.377556
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.499374,
+              "lat": 47.402006
+            },
+            {
+              "arrival": "2023-05-14 10:28:00",
+              "departure": "2023-05-14 10:28:00",
+              "stopid": "8587349",
+              "x": 683306,
+              "y": 247999,
+              "name": "Z\u00fcrich, Bahnhofquai/HB",
+              "sbb_name": "Z\u00fcrich, Bahnhofquai/HB",
+              "waittime": 0,
+              "normal_time": 420,
+              "stops": null,
+              "runningtime": 420,
+              "exit": {
+                "arrival": "2023-05-14 10:35:00",
+                "stopid": "8503000",
+                "x": 683212,
+                "y": 248030,
+                "name": "Z\u00fcrich HB",
+                "sbb_name": "Z\u00fcrich HB",
+                "lon": 8.540502,
+                "lat": 47.377847
+              },
+              "type": "walk",
+              "type_name": "Fussweg",
+              "lon": 8.541741,
+              "lat": 47.377556
+            },
+            {
+              "arrival": "2023-05-14 10:35:00",
+              "stopid": "8503000",
+              "x": 683212,
+              "y": 248030,
+              "name": "Z\u00fcrich HB",
+              "sbb_name": "Z\u00fcrich HB",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.540502,
+              "lat": 47.377847
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:15:00",
+          "to": "Z\u00fcrich HB",
+          "arrival": "2023-05-14 10:30:00",
+          "duration": 900,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:15:00",
+              "tripid": "T2023_006246_000849_001_a2099ad_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "304",
+              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
+              "fgcolor": "fff",
+              "bgcolor": "e20a16",
+              "*G": "B",
+              "*L": "304",
+              "*Z": "006246",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:16:00",
+                  "departure": "2023-05-14 10:16:00",
+                  "name": "Z\u00fcrich, Hohenklingensteig",
+                  "stopid": "8591197",
+                  "x": 679379,
+                  "y": 250590,
+                  "lon": 8.490207,
+                  "lat": 47.401343
+                },
+                {
+                  "arrival": "2023-05-14 10:17:00",
+                  "departure": "2023-05-14 10:17:00",
+                  "name": "Z\u00fcrich, Winzerhalde",
+                  "stopid": "8591434",
+                  "x": 679710,
+                  "y": 250451,
+                  "lon": 8.494566,
+                  "lat": 47.400053
+                },
+                {
+                  "arrival": "2023-05-14 10:17:00",
+                  "departure": "2023-05-14 10:18:00",
+                  "name": "Z\u00fcrich, T\u00fcffenwies",
+                  "stopid": "8591402",
+                  "x": 679717,
+                  "y": 250184,
+                  "lon": 8.494611,
+                  "lat": 47.397651
+                }
+              ],
+              "runningtime": 240,
+              "exit": {
+                "arrival": "2023-05-14 10:19:00",
+                "stopid": "8591057",
+                "x": 679370,
+                "y": 249558,
+                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
+                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
+                "waittime": 0,
+                "lon": 8.489904,
+                "lat": 47.392063
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:19:00",
+              "departure": "2023-05-14 10:19:00",
+              "stopid": "8591057",
+              "x": 679370,
+              "y": 249558,
+              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
+              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
+              "waittime": 0,
+              "normal_time": 180,
+              "stops": null,
+              "runningtime": 180,
+              "exit": {
+                "arrival": "2023-05-14 10:22:00",
                 "stopid": "8503001",
                 "x": 679300,
                 "y": 249492,
@@ -270,182 +689,13 @@
               },
               "type": "walk",
               "type_name": "Fussweg",
-              "lon": 8.488376,
-              "lat": 47.391105
-            },
-            {
-              "arrival": "2023-03-14 16:14:00",
-              "departure": "2023-03-14 16:16:00",
-              "tripid": "T2023_018561_000011_101_6c0301b_0",
-              "stopid": "8503001",
-              "x": 679300,
-              "y": 249492,
-              "name": "Z\u00fcrich Altstetten",
-              "sbb_name": "Z\u00fcrich Altstetten",
-              "type": "strain",
-              "line": "S5",
-              "terminal": "Pf\u00e4ffikon SZ",
-              "waittime": 120,
-              "fgcolor": "fff",
-              "bgcolor": "039",
-              "*G": "S",
-              "*L": "5",
-              "operator": "SBB",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:18:00",
-                  "departure": "2023-03-14 16:18:00",
-                  "name": "Z\u00fcrich Hardbr\u00fccke",
-                  "stopid": "8503020",
-                  "x": 681478,
-                  "y": 248811,
-                  "lon": 8.517686,
-                  "lat": 47.385087
-                }
-              ],
-              "runningtime": 300,
-              "exit": {
-                "arrival": "2023-03-14 16:21:00",
-                "stopid": "8503000",
-                "x": 683212,
-                "y": 248030,
-                "name": "Z\u00fcrich HB",
-                "sbb_name": "Z\u00fcrich HB",
-                "track": "43/44",
-                "lon": 8.540502,
-                "lat": 47.377847
-              },
-              "track": "4",
-              "attributes": {
-                "0_6.5_VN": "VELOS: Keine Bef\u00f6rderung m\u00f6glich"
-              },
-              "disruptions": [],
-              "type_name": "S-Bahn",
-              "lon": 8.488966,
-              "lat": 47.391478
-            },
-            {
-              "arrival": "2023-03-14 16:21:00",
-              "stopid": "8503000",
-              "x": 683212,
-              "y": 248030,
-              "name": "Z\u00fcrich HB",
-              "sbb_name": "Z\u00fcrich HB",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.540502,
-              "lat": 47.377847
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:12:00",
-          "to": "Z\u00fcrich HB",
-          "arrival": "2023-03-14 16:30:00",
-          "duration": 1080,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:12:00",
-              "tripid": "T2023_013787_000849_001_d190037_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "304",
-              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "fgcolor": "fff",
-              "bgcolor": "e20a16",
-              "*G": "B",
-              "*L": "304",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:12:00",
-                  "departure": "2023-03-14 16:13:00",
-                  "name": "Z\u00fcrich, Hohenklingensteig",
-                  "stopid": "8591197",
-                  "x": 679379,
-                  "y": 250590,
-                  "lon": 8.490207,
-                  "lat": 47.401343
-                },
-                {
-                  "arrival": "2023-03-14 16:13:00",
-                  "departure": "2023-03-14 16:14:00",
-                  "name": "Z\u00fcrich, Winzerhalde",
-                  "stopid": "8591434",
-                  "x": 679710,
-                  "y": 250451,
-                  "lon": 8.494566,
-                  "lat": 47.400053
-                },
-                {
-                  "arrival": "2023-03-14 16:14:00",
-                  "departure": "2023-03-14 16:14:00",
-                  "name": "Z\u00fcrich, T\u00fcffenwies",
-                  "stopid": "8591402",
-                  "x": 679717,
-                  "y": 250184,
-                  "lon": 8.494611,
-                  "lat": 47.397651
-                }
-              ],
-              "runningtime": 240,
-              "exit": {
-                "arrival": "2023-03-14 16:16:00",
-                "stopid": "8591057",
-                "x": 679370,
-                "y": 249558,
-                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-                "waittime": 0,
-                "lon": 8.489904,
-                "lat": 47.392063
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:16:00",
-              "departure": "2023-03-14 16:16:00",
-              "stopid": "8591057",
-              "x": 679370,
-              "y": 249558,
-              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-              "waittime": 0,
-              "normal_time": 180,
-              "stops": null,
-              "runningtime": 180,
-              "exit": {
-                "arrival": "2023-03-14 16:19:00",
-                "stopid": "8503001",
-                "x": 679300,
-                "y": 249492,
-                "name": "Z\u00fcrich Altstetten",
-                "sbb_name": "Z\u00fcrich Altstetten",
-                "waittime": 300,
-                "lon": 8.488966,
-                "lat": 47.391478
-              },
-              "type": "walk",
-              "type_name": "Fussweg",
               "lon": 8.489904,
               "lat": 47.392063
             },
             {
-              "arrival": "2023-03-14 16:19:00",
-              "departure": "2023-03-14 16:24:00",
-              "tripid": "T2023_019163_000011_101_a69197d_0",
+              "arrival": "2023-05-14 10:22:00",
+              "departure": "2023-05-14 10:24:00",
+              "tripid": "T2023_019139_000011_101_85e7ca9_0",
               "stopid": "8503001",
               "x": 679300,
               "y": 249492,
@@ -453,17 +703,18 @@
               "sbb_name": "Z\u00fcrich Altstetten",
               "type": "strain",
               "line": "S11",
-              "terminal": "Wila",
-              "waittime": 300,
+              "terminal": "Sennhof-Kyburg",
+              "waittime": 120,
               "fgcolor": "fff",
               "bgcolor": "039",
               "*G": "S",
               "*L": "11",
+              "*Z": "019139",
               "operator": "SBB",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:26:00",
-                  "departure": "2023-03-14 16:26:00",
+                  "arrival": "2023-05-14 10:26:00",
+                  "departure": "2023-05-14 10:26:00",
                   "name": "Z\u00fcrich Hardbr\u00fccke",
                   "stopid": "8503020",
                   "x": 681478,
@@ -474,7 +725,7 @@
               ],
               "runningtime": 360,
               "exit": {
-                "arrival": "2023-03-14 16:30:00",
+                "arrival": "2023-05-14 10:30:00",
                 "stopid": "8503000",
                 "x": 683212,
                 "y": 248030,
@@ -485,174 +736,13 @@
                 "lat": 47.377847
               },
               "track": "4",
-              "attributes": {
-                "0_6.5_VN": "VELOS: Keine Bef\u00f6rderung m\u00f6glich"
-              },
               "disruptions": [],
               "type_name": "S-Bahn",
               "lon": 8.488966,
               "lat": 47.391478
             },
             {
-              "arrival": "2023-03-14 16:30:00",
-              "stopid": "8503000",
-              "x": 683212,
-              "y": 248030,
-              "name": "Z\u00fcrich HB",
-              "sbb_name": "Z\u00fcrich HB",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.540502,
-              "lat": 47.377847
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:28:00",
-          "to": "Z\u00fcrich HB",
-          "arrival": "2023-03-14 16:40:00",
-          "duration": 720,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:28:00",
-              "tripid": "T2023_014184_000849_001_fe8cbd3_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "304",
-              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "fgcolor": "fff",
-              "bgcolor": "e20a16",
-              "*G": "B",
-              "*L": "304",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:28:00",
-                  "departure": "2023-03-14 16:29:00",
-                  "name": "Z\u00fcrich, Hohenklingensteig",
-                  "stopid": "8591197",
-                  "x": 679379,
-                  "y": 250590,
-                  "lon": 8.490207,
-                  "lat": 47.401343
-                },
-                {
-                  "arrival": "2023-03-14 16:29:00",
-                  "departure": "2023-03-14 16:30:00",
-                  "name": "Z\u00fcrich, Winzerhalde",
-                  "stopid": "8591434",
-                  "x": 679710,
-                  "y": 250451,
-                  "lon": 8.494566,
-                  "lat": 47.400053
-                },
-                {
-                  "arrival": "2023-03-14 16:30:00",
-                  "departure": "2023-03-14 16:30:00",
-                  "name": "Z\u00fcrich, T\u00fcffenwies",
-                  "stopid": "8591402",
-                  "x": 679717,
-                  "y": 250184,
-                  "lon": 8.494611,
-                  "lat": 47.397651
-                }
-              ],
-              "runningtime": 240,
-              "exit": {
-                "arrival": "2023-03-14 16:32:00",
-                "stopid": "8591057",
-                "x": 679370,
-                "y": 249558,
-                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-                "waittime": 0,
-                "lon": 8.489904,
-                "lat": 47.392063
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:32:00",
-              "departure": "2023-03-14 16:32:00",
-              "stopid": "8591057",
-              "x": 679370,
-              "y": 249558,
-              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-              "waittime": 0,
-              "normal_time": 180,
-              "stops": null,
-              "runningtime": 180,
-              "exit": {
-                "arrival": "2023-03-14 16:35:00",
-                "stopid": "8503001",
-                "x": 679300,
-                "y": 249492,
-                "name": "Z\u00fcrich Altstetten",
-                "sbb_name": "Z\u00fcrich Altstetten",
-                "waittime": 0,
-                "lon": 8.488966,
-                "lat": 47.391478
-              },
-              "type": "walk",
-              "type_name": "Fussweg",
-              "lon": 8.489904,
-              "lat": 47.392063
-            },
-            {
-              "arrival": "2023-03-14 16:35:00",
-              "departure": "2023-03-14 16:35:00",
-              "tripid": "T2023_019463_000011_101_1f2cf28_0",
-              "stopid": "8503001",
-              "x": 679300,
-              "y": 249492,
-              "name": "Z\u00fcrich Altstetten",
-              "sbb_name": "Z\u00fcrich Altstetten",
-              "type": "strain",
-              "line": "S14",
-              "terminal": "Hinwil",
-              "waittime": 0,
-              "fgcolor": "fff",
-              "bgcolor": "039",
-              "*G": "S",
-              "*L": "14",
-              "operator": "SBB",
-              "stops": [],
-              "runningtime": 300,
-              "exit": {
-                "arrival": "2023-03-14 16:40:00",
-                "stopid": "8503000",
-                "x": 683212,
-                "y": 248030,
-                "name": "Z\u00fcrich HB",
-                "sbb_name": "Z\u00fcrich HB",
-                "track": "34",
-                "lon": 8.540502,
-                "lat": 47.377847
-              },
-              "track": "4",
-              "attributes": {
-                "0_6.5_VN": "VELOS: Keine Bef\u00f6rderung m\u00f6glich"
-              },
-              "disruptions": [],
-              "type_name": "S-Bahn",
-              "lon": 8.488966,
-              "lat": 47.391478
-            },
-            {
-              "arrival": "2023-03-14 16:40:00",
+              "arrival": "2023-05-14 10:30:00",
               "stopid": "8503000",
               "x": 683212,
               "y": 248030,
@@ -690,7 +780,7 @@
     {
       "key": 1,
       "url": "//fahrplan.search.ch/Z%C3%BCrich,Winzerstrasse-S%C3%BCd..Z%C3%BCrich,Meierhofplatz",
-      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich, Meierhofplatz am Dienstag 14.03.2023",
+      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich, Meierhofplatz am Sonntag 14.05.2023",
       "count": 4,
       "min_duration": 180,
       "rawtime": 180,
@@ -699,14 +789,14 @@
       "connections": [
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 15:58:00",
+          "departure": "2023-05-14 09:58:00",
           "to": "Z\u00fcrich, Meierhofplatz",
-          "arrival": "2023-03-14 16:03:00",
+          "arrival": "2023-05-14 10:03:00",
           "duration": 300,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 15:58:00",
+              "departure": "2023-05-14 09:58:00",
               "x": "679068",
               "y": "250811",
               "isaddress": false,
@@ -717,7 +807,7 @@
               "terminal": "Z\u00fcrich, Winzerstrasse",
               "runningtime": 120,
               "exit": {
-                "arrival": "2023-03-14 16:00:00",
+                "arrival": "2023-05-14 10:00:00",
                 "stopid": "8591435",
                 "x": 679086,
                 "y": 250855,
@@ -732,9 +822,9 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:00:00",
-              "departure": "2023-03-14 16:00:00",
-              "tripid": "T2023_009411_003849_001_82f6980_0",
+              "arrival": "2023-05-14 10:00:00",
+              "departure": "2023-05-14 10:00:00",
+              "tripid": "T2023_004426_003849_001_d7f7722_0",
               "stopid": "8591435",
               "x": 679086,
               "y": 250855,
@@ -748,11 +838,12 @@
               "bgcolor": "ffc100",
               "*G": "B",
               "*L": "13",
+              "*Z": "004426",
               "operator": "VBZ    F",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:01:00",
-                  "departure": "2023-03-14 16:01:00",
+                  "arrival": "2023-05-14 10:01:00",
+                  "departure": "2023-05-14 10:01:00",
                   "name": "Z\u00fcrich, Wartau",
                   "stopid": "8591423",
                   "x": 679484,
@@ -761,8 +852,8 @@
                   "lat": 47.402769
                 },
                 {
-                  "arrival": "2023-03-14 16:02:00",
-                  "departure": "2023-03-14 16:02:00",
+                  "arrival": "2023-05-14 10:02:00",
+                  "departure": "2023-05-14 10:02:00",
                   "name": "Z\u00fcrich, Zwielplatz",
                   "stopid": "8591446",
                   "x": 679876,
@@ -773,7 +864,7 @@
               ],
               "runningtime": 180,
               "exit": {
-                "arrival": "2023-03-14 16:03:00",
+                "arrival": "2023-05-14 10:03:00",
                 "stopid": "8576240",
                 "x": 680070,
                 "y": 250673,
@@ -791,7 +882,7 @@
               "lat": 47.403761
             },
             {
-              "arrival": "2023-03-14 16:03:00",
+              "arrival": "2023-05-14 10:03:00",
               "stopid": "8576240",
               "x": 680070,
               "y": 250673,
@@ -806,173 +897,15 @@
         },
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:02:00",
+          "departure": "2023-05-14 10:02:00",
           "to": "Z\u00fcrich, Meierhofplatz",
-          "arrival": "2023-03-14 16:06:00",
-          "duration": 240,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:02:00",
-              "tripid": "T2023_013349_000849_001_d7412c3_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "80",
-              "terminal": "Z\u00fcrich Oerlikon, Bahnhof Nord",
-              "fgcolor": "000",
-              "bgcolor": "cbcfb3",
-              "*G": "B",
-              "*L": "80",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:04:00",
-                  "departure": "2023-03-14 16:04:00",
-                  "name": "Z\u00fcrich, Wartau",
-                  "stopid": "8591423",
-                  "x": 679484,
-                  "y": 250750,
-                  "lon": 8.491626,
-                  "lat": 47.402769
-                },
-                {
-                  "arrival": "2023-03-14 16:05:00",
-                  "departure": "2023-03-14 16:05:00",
-                  "name": "Z\u00fcrich, Zwielplatz",
-                  "stopid": "8591446",
-                  "x": 679876,
-                  "y": 250690,
-                  "lon": 8.496808,
-                  "lat": 47.402182
-                }
-              ],
-              "runningtime": 240,
-              "exit": {
-                "arrival": "2023-03-14 16:06:00",
-                "stopid": "8576240",
-                "x": 680070,
-                "y": 250673,
-                "name": "Z\u00fcrich, Meierhofplatz",
-                "sbb_name": "Z\u00fcrich, Meierhofplatz",
-                "lon": 8.499374,
-                "lat": 47.402006
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:06:00",
-              "stopid": "8576240",
-              "x": 680070,
-              "y": 250673,
-              "name": "Z\u00fcrich, Meierhofplatz",
-              "sbb_name": "Z\u00fcrich, Meierhofplatz",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.499374,
-              "lat": 47.402006
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:05:00",
-          "to": "Z\u00fcrich, Meierhofplatz",
-          "arrival": "2023-03-14 16:10:00",
-          "duration": 300,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:05:00",
-              "tripid": "T2023_013733_000849_001_cf371b8_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "80",
-              "terminal": "Z\u00fcrich Oerlikon, Bahnhof Nord",
-              "fgcolor": "000",
-              "bgcolor": "cbcfb3",
-              "*G": "B",
-              "*L": "80",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:07:00",
-                  "name": "Z\u00fcrich, Wartau",
-                  "stopid": "8591423",
-                  "x": 679484,
-                  "y": 250750,
-                  "lon": 8.491626,
-                  "lat": 47.402769
-                },
-                {
-                  "arrival": "2023-03-14 16:08:00",
-                  "departure": "2023-03-14 16:08:00",
-                  "name": "Z\u00fcrich, Zwielplatz",
-                  "stopid": "8591446",
-                  "x": 679876,
-                  "y": 250690,
-                  "lon": 8.496808,
-                  "lat": 47.402182
-                }
-              ],
-              "runningtime": 300,
-              "exit": {
-                "arrival": "2023-03-14 16:10:00",
-                "stopid": "8576240",
-                "x": 680070,
-                "y": 250673,
-                "name": "Z\u00fcrich, Meierhofplatz",
-                "sbb_name": "Z\u00fcrich, Meierhofplatz",
-                "lon": 8.499374,
-                "lat": 47.402006
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:10:00",
-              "stopid": "8576240",
-              "x": 680070,
-              "y": 250673,
-              "name": "Z\u00fcrich, Meierhofplatz",
-              "sbb_name": "Z\u00fcrich, Meierhofplatz",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.499374,
-              "lat": 47.402006
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:10:00",
-          "to": "Z\u00fcrich, Meierhofplatz",
-          "arrival": "2023-03-14 16:13:00",
+          "arrival": "2023-05-14 10:05:00",
           "duration": 180,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 16:10:00",
-              "tripid": "T2023_013532_000849_001_2046103_0",
+              "departure": "2023-05-14 10:02:00",
+              "tripid": "T2023_005739_000849_001_efbade3_0",
               "stopid": "8591436",
               "x": 679068,
               "y": 250811,
@@ -985,11 +918,12 @@
               "bgcolor": "cbcfb3",
               "*G": "B",
               "*L": "80",
+              "*Z": "005739",
               "operator": "VBZ",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:11:00",
-                  "departure": "2023-03-14 16:11:00",
+                  "arrival": "2023-05-14 10:03:00",
+                  "departure": "2023-05-14 10:03:00",
                   "name": "Z\u00fcrich, Wartau",
                   "stopid": "8591423",
                   "x": 679484,
@@ -998,8 +932,8 @@
                   "lat": 47.402769
                 },
                 {
-                  "arrival": "2023-03-14 16:12:00",
-                  "departure": "2023-03-14 16:12:00",
+                  "arrival": "2023-05-14 10:04:00",
+                  "departure": "2023-05-14 10:04:00",
                   "name": "Z\u00fcrich, Zwielplatz",
                   "stopid": "8591446",
                   "x": 679876,
@@ -1010,7 +944,7 @@
               ],
               "runningtime": 180,
               "exit": {
-                "arrival": "2023-03-14 16:13:00",
+                "arrival": "2023-05-14 10:05:00",
                 "stopid": "8576240",
                 "x": 680070,
                 "y": 250673,
@@ -1028,7 +962,167 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:13:00",
+              "arrival": "2023-05-14 10:05:00",
+              "stopid": "8576240",
+              "x": 680070,
+              "y": 250673,
+              "name": "Z\u00fcrich, Meierhofplatz",
+              "sbb_name": "Z\u00fcrich, Meierhofplatz",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.499374,
+              "lat": 47.402006
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:09:00",
+          "to": "Z\u00fcrich, Meierhofplatz",
+          "arrival": "2023-05-14 10:13:00",
+          "duration": 240,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:09:00",
+              "tripid": "T2023_006225_000849_001_e94ed0d_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "80",
+              "terminal": "Z\u00fcrich Oerlikon, Bahnhof Nord",
+              "fgcolor": "000",
+              "bgcolor": "cbcfb3",
+              "*G": "B",
+              "*L": "80",
+              "*Z": "006225",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:11:00",
+                  "departure": "2023-05-14 10:11:00",
+                  "name": "Z\u00fcrich, Wartau",
+                  "stopid": "8591423",
+                  "x": 679484,
+                  "y": 250750,
+                  "lon": 8.491626,
+                  "lat": 47.402769
+                },
+                {
+                  "arrival": "2023-05-14 10:11:00",
+                  "departure": "2023-05-14 10:12:00",
+                  "name": "Z\u00fcrich, Zwielplatz",
+                  "stopid": "8591446",
+                  "x": 679876,
+                  "y": 250690,
+                  "lon": 8.496808,
+                  "lat": 47.402182
+                }
+              ],
+              "runningtime": 240,
+              "exit": {
+                "arrival": "2023-05-14 10:13:00",
+                "stopid": "8576240",
+                "x": 680070,
+                "y": 250673,
+                "name": "Z\u00fcrich, Meierhofplatz",
+                "sbb_name": "Z\u00fcrich, Meierhofplatz",
+                "lon": 8.499374,
+                "lat": 47.402006
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:13:00",
+              "stopid": "8576240",
+              "x": 680070,
+              "y": 250673,
+              "name": "Z\u00fcrich, Meierhofplatz",
+              "sbb_name": "Z\u00fcrich, Meierhofplatz",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.499374,
+              "lat": 47.402006
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:18:00",
+          "to": "Z\u00fcrich, Meierhofplatz",
+          "arrival": "2023-05-14 10:21:00",
+          "duration": 180,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:18:00",
+              "tripid": "T2023_006104_000849_001_9611527_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "80",
+              "terminal": "Z\u00fcrich Oerlikon, Bahnhof Nord",
+              "fgcolor": "000",
+              "bgcolor": "cbcfb3",
+              "*G": "B",
+              "*L": "80",
+              "*Z": "006104",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:19:00",
+                  "departure": "2023-05-14 10:19:00",
+                  "name": "Z\u00fcrich, Wartau",
+                  "stopid": "8591423",
+                  "x": 679484,
+                  "y": 250750,
+                  "lon": 8.491626,
+                  "lat": 47.402769
+                },
+                {
+                  "arrival": "2023-05-14 10:20:00",
+                  "departure": "2023-05-14 10:20:00",
+                  "name": "Z\u00fcrich, Zwielplatz",
+                  "stopid": "8591446",
+                  "x": 679876,
+                  "y": 250690,
+                  "lon": 8.496808,
+                  "lat": 47.402182
+                }
+              ],
+              "runningtime": 180,
+              "exit": {
+                "arrival": "2023-05-14 10:21:00",
+                "stopid": "8576240",
+                "x": 680070,
+                "y": 250673,
+                "name": "Z\u00fcrich, Meierhofplatz",
+                "sbb_name": "Z\u00fcrich, Meierhofplatz",
+                "lon": 8.499374,
+                "lat": 47.402006
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:21:00",
               "stopid": "8576240",
               "x": 680070,
               "y": 250673,
@@ -1066,24 +1160,24 @@
     {
       "key": 2,
       "url": "//fahrplan.search.ch/Z%C3%BCrich,Winzerstrasse-S%C3%BCd..Z%C3%BCrich-Altstetten",
-      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich Altstetten am Dienstag 14.03.2023",
+      "description": "Von Z\u00fcrich, Winzerstrasse S\u00fcd nach Z\u00fcrich Altstetten am Sonntag 14.05.2023",
       "count": 4,
-      "min_duration": 420,
-      "rawtime": 420,
+      "min_duration": 360,
+      "rawtime": 360,
       "max_duration": 540,
       "maxtime": 540,
       "connections": [
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 15:57:00",
+          "departure": "2023-05-14 09:53:00",
           "to": "Z\u00fcrich Altstetten",
-          "arrival": "2023-03-14 16:06:00",
+          "arrival": "2023-05-14 10:02:00",
           "duration": 540,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 15:57:00",
-              "tripid": "T2023_013261_000849_001_a795be3_0",
+              "departure": "2023-05-14 09:53:00",
+              "tripid": "T2023_005539_000849_001_d2f9de2_0",
               "stopid": "8591436",
               "x": 679068,
               "y": 250811,
@@ -1096,11 +1190,12 @@
               "bgcolor": "cbcfb3",
               "*G": "B",
               "*L": "80",
+              "*Z": "005539",
               "operator": "VBZ",
               "stops": [
                 {
-                  "arrival": "2023-03-14 15:58:00",
-                  "departure": "2023-03-14 15:58:00",
+                  "arrival": "2023-05-14 09:54:00",
+                  "departure": "2023-05-14 09:54:00",
                   "name": "Z\u00fcrich, Hohenklingensteig",
                   "stopid": "8591197",
                   "x": 679379,
@@ -1109,8 +1204,8 @@
                   "lat": 47.401343
                 },
                 {
-                  "arrival": "2023-03-14 15:59:00",
-                  "departure": "2023-03-14 15:59:00",
+                  "arrival": "2023-05-14 09:54:00",
+                  "departure": "2023-05-14 09:55:00",
                   "name": "Z\u00fcrich, Winzerhalde",
                   "stopid": "8591434",
                   "x": 679710,
@@ -1119,8 +1214,8 @@
                   "lat": 47.400053
                 },
                 {
-                  "arrival": "2023-03-14 16:00:00",
-                  "departure": "2023-03-14 16:00:00",
+                  "arrival": "2023-05-14 09:55:00",
+                  "departure": "2023-05-14 09:55:00",
                   "name": "Z\u00fcrich, T\u00fcffenwies",
                   "stopid": "8591402",
                   "x": 679717,
@@ -1131,7 +1226,7 @@
               ],
               "runningtime": 300,
               "exit": {
-                "arrival": "2023-03-14 16:02:00",
+                "arrival": "2023-05-14 09:58:00",
                 "stopid": "8591056",
                 "x": 679256,
                 "y": 249450,
@@ -1150,8 +1245,8 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:02:00",
-              "departure": "2023-03-14 16:02:00",
+              "arrival": "2023-05-14 09:58:00",
+              "departure": "2023-05-14 09:58:00",
               "stopid": "8591056",
               "x": 679256,
               "y": 249450,
@@ -1162,7 +1257,7 @@
               "stops": null,
               "runningtime": 240,
               "exit": {
-                "arrival": "2023-03-14 16:06:00",
+                "arrival": "2023-05-14 10:02:00",
                 "stopid": "8503001",
                 "x": 679300,
                 "y": 249492,
@@ -1177,7 +1272,7 @@
               "lat": 47.391105
             },
             {
-              "arrival": "2023-03-14 16:06:00",
+              "arrival": "2023-05-14 10:02:00",
               "stopid": "8503001",
               "x": 679300,
               "y": 249492,
@@ -1192,149 +1287,34 @@
         },
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:03:00",
+          "departure": "2023-05-14 09:55:00",
           "to": "Z\u00fcrich Altstetten",
-          "arrival": "2023-03-14 16:10:00",
-          "duration": 420,
-          "is_main": true,
-          "legs": [
-            {
-              "departure": "2023-03-14 16:03:00",
-              "tripid": "T2023_013592_000849_001_32bafe7_0",
-              "stopid": "8591436",
-              "x": 679068,
-              "y": 250811,
-              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-              "type": "bus",
-              "line": "304",
-              "terminal": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "fgcolor": "fff",
-              "bgcolor": "e20a16",
-              "*G": "B",
-              "*L": "304",
-              "operator": "VBZ",
-              "stops": [
-                {
-                  "arrival": "2023-03-14 16:04:00",
-                  "departure": "2023-03-14 16:04:00",
-                  "name": "Z\u00fcrich, Hohenklingensteig",
-                  "stopid": "8591197",
-                  "x": 679379,
-                  "y": 250590,
-                  "lon": 8.490207,
-                  "lat": 47.401343
-                },
-                {
-                  "arrival": "2023-03-14 16:05:00",
-                  "departure": "2023-03-14 16:05:00",
-                  "name": "Z\u00fcrich, Winzerhalde",
-                  "stopid": "8591434",
-                  "x": 679710,
-                  "y": 250451,
-                  "lon": 8.494566,
-                  "lat": 47.400053
-                },
-                {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:06:00",
-                  "name": "Z\u00fcrich, T\u00fcffenwies",
-                  "stopid": "8591402",
-                  "x": 679717,
-                  "y": 250184,
-                  "lon": 8.494611,
-                  "lat": 47.397651
-                }
-              ],
-              "runningtime": 240,
-              "exit": {
-                "arrival": "2023-03-14 16:07:00",
-                "stopid": "8591057",
-                "x": 679370,
-                "y": 249558,
-                "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-                "waittime": 0,
-                "lon": 8.489904,
-                "lat": 47.392063
-              },
-              "attributes": {
-                "1_0_NF": "Niederflureinstieg"
-              },
-              "disruptions": [],
-              "type_name": "Bus",
-              "lon": 8.486126,
-              "lat": 47.403368
-            },
-            {
-              "arrival": "2023-03-14 16:07:00",
-              "departure": "2023-03-14 16:07:00",
-              "stopid": "8591057",
-              "x": 679370,
-              "y": 249558,
-              "name": "Z\u00fcrich Altstetten, Bahnhof Nord",
-              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof N",
-              "waittime": 0,
-              "normal_time": 180,
-              "stops": null,
-              "runningtime": 180,
-              "exit": {
-                "arrival": "2023-03-14 16:10:00",
-                "stopid": "8503001",
-                "x": 679300,
-                "y": 249492,
-                "name": "Z\u00fcrich Altstetten",
-                "sbb_name": "Z\u00fcrich Altstetten",
-                "lon": 8.488966,
-                "lat": 47.391478
-              },
-              "type": "walk",
-              "type_name": "Fussweg",
-              "lon": 8.489904,
-              "lat": 47.392063
-            },
-            {
-              "arrival": "2023-03-14 16:10:00",
-              "stopid": "8503001",
-              "x": 679300,
-              "y": 249492,
-              "name": "Z\u00fcrich Altstetten",
-              "sbb_name": "Z\u00fcrich Altstetten",
-              "normal_time": 0,
-              "stops": null,
-              "lon": 8.488966,
-              "lat": 47.391478
-            }
-          ]
-        },
-        {
-          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:05:00",
-          "to": "Z\u00fcrich Altstetten",
-          "arrival": "2023-03-14 16:14:00",
+          "arrival": "2023-05-14 10:04:00",
           "duration": 540,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 16:05:00",
-              "tripid": "T2023_013417_000849_001_d336472_0",
+              "departure": "2023-05-14 09:55:00",
+              "tripid": "T2023_005816_000849_001_11a1033_0",
               "stopid": "8591436",
               "x": 679068,
               "y": 250811,
               "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
               "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
               "type": "bus",
-              "line": "80",
-              "terminal": "Z\u00fcrich, Triemlispital",
+              "line": "89",
+              "terminal": "Z\u00fcrich, Sihlcity",
+              "style": "1",
               "fgcolor": "000",
-              "bgcolor": "cbcfb3",
+              "bgcolor": "ffffff",
               "*G": "B",
-              "*L": "80",
+              "*L": "89",
+              "*Z": "005816",
               "operator": "VBZ",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:06:00",
+                  "arrival": "2023-05-14 09:56:00",
+                  "departure": "2023-05-14 09:56:00",
                   "name": "Z\u00fcrich, Hohenklingensteig",
                   "stopid": "8591197",
                   "x": 679379,
@@ -1343,8 +1323,8 @@
                   "lat": 47.401343
                 },
                 {
-                  "arrival": "2023-03-14 16:06:00",
-                  "departure": "2023-03-14 16:07:00",
+                  "arrival": "2023-05-14 09:57:00",
+                  "departure": "2023-05-14 09:57:00",
                   "name": "Z\u00fcrich, Winzerhalde",
                   "stopid": "8591434",
                   "x": 679710,
@@ -1353,8 +1333,8 @@
                   "lat": 47.400053
                 },
                 {
-                  "arrival": "2023-03-14 16:07:00",
-                  "departure": "2023-03-14 16:07:00",
+                  "arrival": "2023-05-14 09:57:00",
+                  "departure": "2023-05-14 09:58:00",
                   "name": "Z\u00fcrich, T\u00fcffenwies",
                   "stopid": "8591402",
                   "x": 679717,
@@ -1365,7 +1345,7 @@
               ],
               "runningtime": 300,
               "exit": {
-                "arrival": "2023-03-14 16:10:00",
+                "arrival": "2023-05-14 10:00:00",
                 "stopid": "8591056",
                 "x": 679256,
                 "y": 249450,
@@ -1384,8 +1364,8 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:10:00",
-              "departure": "2023-03-14 16:10:00",
+              "arrival": "2023-05-14 10:00:00",
+              "departure": "2023-05-14 10:00:00",
               "stopid": "8591056",
               "x": 679256,
               "y": 249450,
@@ -1396,7 +1376,7 @@
               "stops": null,
               "runningtime": 240,
               "exit": {
-                "arrival": "2023-03-14 16:14:00",
+                "arrival": "2023-05-14 10:04:00",
                 "stopid": "8503001",
                 "x": 679300,
                 "y": 249492,
@@ -1411,7 +1391,7 @@
               "lat": 47.391105
             },
             {
-              "arrival": "2023-03-14 16:14:00",
+              "arrival": "2023-05-14 10:04:00",
               "stopid": "8503001",
               "x": 679300,
               "y": 249492,
@@ -1426,15 +1406,15 @@
         },
         {
           "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
-          "departure": "2023-03-14 16:12:00",
+          "departure": "2023-05-14 10:00:00",
           "to": "Z\u00fcrich Altstetten",
-          "arrival": "2023-03-14 16:19:00",
-          "duration": 420,
+          "arrival": "2023-05-14 10:06:00",
+          "duration": 360,
           "is_main": true,
           "legs": [
             {
-              "departure": "2023-03-14 16:12:00",
-              "tripid": "T2023_013787_000849_001_d190037_0",
+              "departure": "2023-05-14 10:00:00",
+              "tripid": "T2023_005865_000849_001_c94a9e2_0",
               "stopid": "8591436",
               "x": 679068,
               "y": 250811,
@@ -1447,11 +1427,12 @@
               "bgcolor": "e20a16",
               "*G": "B",
               "*L": "304",
+              "*Z": "005865",
               "operator": "VBZ",
               "stops": [
                 {
-                  "arrival": "2023-03-14 16:12:00",
-                  "departure": "2023-03-14 16:13:00",
+                  "arrival": "2023-05-14 10:00:00",
+                  "departure": "2023-05-14 10:00:00",
                   "name": "Z\u00fcrich, Hohenklingensteig",
                   "stopid": "8591197",
                   "x": 679379,
@@ -1460,8 +1441,8 @@
                   "lat": 47.401343
                 },
                 {
-                  "arrival": "2023-03-14 16:13:00",
-                  "departure": "2023-03-14 16:14:00",
+                  "arrival": "2023-05-14 10:01:00",
+                  "departure": "2023-05-14 10:01:00",
                   "name": "Z\u00fcrich, Winzerhalde",
                   "stopid": "8591434",
                   "x": 679710,
@@ -1470,8 +1451,8 @@
                   "lat": 47.400053
                 },
                 {
-                  "arrival": "2023-03-14 16:14:00",
-                  "departure": "2023-03-14 16:14:00",
+                  "arrival": "2023-05-14 10:02:00",
+                  "departure": "2023-05-14 10:02:00",
                   "name": "Z\u00fcrich, T\u00fcffenwies",
                   "stopid": "8591402",
                   "x": 679717,
@@ -1480,9 +1461,9 @@
                   "lat": 47.397651
                 }
               ],
-              "runningtime": 240,
+              "runningtime": 180,
               "exit": {
-                "arrival": "2023-03-14 16:16:00",
+                "arrival": "2023-05-14 10:03:00",
                 "stopid": "8591057",
                 "x": 679370,
                 "y": 249558,
@@ -1501,8 +1482,8 @@
               "lat": 47.403368
             },
             {
-              "arrival": "2023-03-14 16:16:00",
-              "departure": "2023-03-14 16:16:00",
+              "arrival": "2023-05-14 10:03:00",
+              "departure": "2023-05-14 10:03:00",
               "stopid": "8591057",
               "x": 679370,
               "y": 249558,
@@ -1513,7 +1494,7 @@
               "stops": null,
               "runningtime": 180,
               "exit": {
-                "arrival": "2023-03-14 16:19:00",
+                "arrival": "2023-05-14 10:06:00",
                 "stopid": "8503001",
                 "x": 679300,
                 "y": 249492,
@@ -1528,7 +1509,125 @@
               "lat": 47.392063
             },
             {
-              "arrival": "2023-03-14 16:19:00",
+              "arrival": "2023-05-14 10:06:00",
+              "stopid": "8503001",
+              "x": 679300,
+              "y": 249492,
+              "name": "Z\u00fcrich Altstetten",
+              "sbb_name": "Z\u00fcrich Altstetten",
+              "normal_time": 0,
+              "stops": null,
+              "lon": 8.488966,
+              "lat": 47.391478
+            }
+          ]
+        },
+        {
+          "from": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+          "departure": "2023-05-14 10:08:00",
+          "to": "Z\u00fcrich Altstetten",
+          "arrival": "2023-05-14 10:17:00",
+          "duration": 540,
+          "is_main": true,
+          "legs": [
+            {
+              "departure": "2023-05-14 10:08:00",
+              "tripid": "T2023_005896_000849_001_8c6c7b3_0",
+              "stopid": "8591436",
+              "x": 679068,
+              "y": 250811,
+              "name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "sbb_name": "Z\u00fcrich, Winzerstrasse S\u00fcd",
+              "type": "bus",
+              "line": "80",
+              "terminal": "Z\u00fcrich, Triemlispital",
+              "fgcolor": "000",
+              "bgcolor": "cbcfb3",
+              "*G": "B",
+              "*L": "80",
+              "*Z": "005896",
+              "operator": "VBZ",
+              "stops": [
+                {
+                  "arrival": "2023-05-14 10:09:00",
+                  "departure": "2023-05-14 10:09:00",
+                  "name": "Z\u00fcrich, Hohenklingensteig",
+                  "stopid": "8591197",
+                  "x": 679379,
+                  "y": 250590,
+                  "lon": 8.490207,
+                  "lat": 47.401343
+                },
+                {
+                  "arrival": "2023-05-14 10:09:00",
+                  "departure": "2023-05-14 10:10:00",
+                  "name": "Z\u00fcrich, Winzerhalde",
+                  "stopid": "8591434",
+                  "x": 679710,
+                  "y": 250451,
+                  "lon": 8.494566,
+                  "lat": 47.400053
+                },
+                {
+                  "arrival": "2023-05-14 10:10:00",
+                  "departure": "2023-05-14 10:10:00",
+                  "name": "Z\u00fcrich, T\u00fcffenwies",
+                  "stopid": "8591402",
+                  "x": 679717,
+                  "y": 250184,
+                  "lon": 8.494611,
+                  "lat": 47.397651
+                }
+              ],
+              "runningtime": 300,
+              "exit": {
+                "arrival": "2023-05-14 10:13:00",
+                "stopid": "8591056",
+                "x": 679256,
+                "y": 249450,
+                "name": "Z\u00fcrich Altstetten, Bahnhof",
+                "sbb_name": "Z\u00fcrich Altstetten, Bahnhof",
+                "waittime": 0,
+                "lon": 8.488376,
+                "lat": 47.391105
+              },
+              "attributes": {
+                "1_0_NF": "Niederflureinstieg"
+              },
+              "disruptions": [],
+              "type_name": "Bus",
+              "lon": 8.486126,
+              "lat": 47.403368
+            },
+            {
+              "arrival": "2023-05-14 10:13:00",
+              "departure": "2023-05-14 10:13:00",
+              "stopid": "8591056",
+              "x": 679256,
+              "y": 249450,
+              "name": "Z\u00fcrich Altstetten, Bahnhof",
+              "sbb_name": "Z\u00fcrich Altstetten, Bahnhof",
+              "waittime": 0,
+              "normal_time": 240,
+              "stops": null,
+              "runningtime": 240,
+              "exit": {
+                "arrival": "2023-05-14 10:17:00",
+                "stopid": "8503001",
+                "x": 679300,
+                "y": 249492,
+                "name": "Z\u00fcrich Altstetten",
+                "sbb_name": "Z\u00fcrich Altstetten",
+                "lon": 8.488966,
+                "lat": 47.391478
+              },
+              "type": "walk",
+              "type_name": "Fussweg",
+              "lon": 8.488376,
+              "lat": 47.391105
+            },
+            {
+              "arrival": "2023-05-14 10:17:00",
               "stopid": "8503001",
               "x": 679300,
               "y": 249492,

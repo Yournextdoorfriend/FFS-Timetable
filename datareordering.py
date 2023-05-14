@@ -27,5 +27,5 @@ def trashDuplicates(arr):
     return new_arr
 
     
-def groupData(arr):
+#def groupData(arr):
     #TODO
